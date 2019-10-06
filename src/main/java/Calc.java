@@ -25,6 +25,7 @@ public class Calc {
 		System.out.println("a * b = "+mul(a,b));
 		System.out.println("a / b = "+div(a,b));
         sc.close();
+		//endddd
 	}
 
 }
