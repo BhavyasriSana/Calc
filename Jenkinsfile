@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Security Scan'){
             steps{
-                sh'probelyScan credentialsId: 'probely', targetId: '31JdHhtSBok9'
+                sh'probelyScan credentialsId: 'probely', targetId: '31JdHhtSBok9''
                 
             }
         }
